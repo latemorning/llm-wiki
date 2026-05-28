@@ -14,6 +14,7 @@ tags:
 ## Sources
 
 - 2026-05-28: `pointhub-project-documentation.md` 내용을 [[PointHub]], [[PointHub Application Structure]], [[PointHub Build and Test]], [[PointHub Context Pack]]으로 가져오고 원본 raw 노트는 제거했다.
+- 2026-05-28: `/Users/harry/obsidianVaults/my_vault`의 PointHub/SafeDB 관련 업무 지식을 마스킹 요약으로 이관했다. 상세 처리 기록은 [[my_vault Migration Log]]에 있다.
 
 ## Source Note Format
 

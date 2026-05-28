@@ -48,6 +48,8 @@ mvn test -Dmaven.test.skip=false
 - `.gitleaks.toml`과 `.githooks` 활성화 상태를 유지한다.
 - `properties`, `WEB-INF`, mapper XML은 민감한 변경 가능성이 높다.
 - SQL 변경은 관련 `src/main/resources/mapper/**/sql-*.xml` 파일에 반영한다.
+- SafeDB 테스트값, 암호문, CI, 전화번호, 개인명, PRD DDL 원문은 위키에 저장하지 않는다.
+- 운영/TB IP, SSH alias, 토큰, 키, 인증서, 개인키, 라이선스 값은 placeholder로만 적는다.
 
 ## Relevant Files
 
@@ -63,7 +65,15 @@ mvn test -Dmaven.test.skip=false
 
 - [[PointHub]]
 - [[PointHub Application Structure]]
+- [[PointHub SafeDB Encryption]]
+- [[PointHub Runtime and Middleware]]
+- [[PointHub Card Cancel C160]]
 - [[PointHub Build and Test]]
+- [[PointHub Local Development Environment]]
+- [[PointHub Local DB Migration]]
+- [[SafeDB Agent Setup]]
+- [[Tomcat Multi Instance Shutdown]]
+- [[PointHub CI CD Deployment]]
 
 ## Needs Verification
 
