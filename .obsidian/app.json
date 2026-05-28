@@ -1,1 +1,5 @@
-{}
+{
+  "readableLineLength": false,
+  "tabSize": 2,
+  "vimMode": true
+}
